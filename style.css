@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(210, 202, 224);
+    background-color: rgb(132, 114, 162);
     margin: 0px;
     padding: 0px;
 }
@@ -8,10 +8,10 @@ html{
     
 }
 header{
-    background-color: blue;
+    background-color: rgb(14, 14, 120);
 }
 header h1{
-    padding-left: 30px;
+    padding-left: 3 0px;
     margin: 0px;
     text-align: left;
     font-size: 4rem;
@@ -26,4 +26,19 @@ nav{
 }
 nav a{
     padding-inline:10px;
+}
+.login-section{
+    position: relative;
+    top: 50vh;
+    height: 20vh;
+    width: 60vw;
+    background-color: blue;  
+    justify-content: center;
+    border-radius: 15px;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+
 }
