@@ -4,27 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css"> 
-    <title>Document</title>
+    <title>WORLD CRICKETERS OF 2023</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav>
-        <a>sign up</a>
-        <a>about</a>
-        <a>contact us</a>
-    </nav>
     <header>
-        <h1>HOSPO</h1>
+        <div class="container">
+            <a href="#">Logo</a>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
     </header>
-    
-    <section>
-        <div class="login-section">
+    <main>
+        <div class="banner-container">
+            <section class="container">
+                <div class="left-section">
+                    <h1>NO.1 Cricketer</h1>
+                    <p>The Indian Premier League (IPL) is a professional Twenty20 cricket league in India. It was founded in 2008 and has since become one of the most popular cricket leagues in the world. The IPL consists of eight teams representing different Indian cities, and the league typically takes place between March and May each year. The matches are played in a round-robin format, followed by playoffs, culminating in a final match to determine the winner. The league attracts some of the biggest names in cricket from around the world, and has become known for its high-octane matches and vibrant atmosphere.</p>
+                    <button>Login</button>
+                </div>
+                <div class="right-section">
+                    <h4>Please fill the form</h4>
+                    <form action="" autocomplete="off">
+                        <div class="input-group">
+                          <input type="text" id="name" required>  
+                          <label for="name">Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="emai" required>
+                            <label for="emai">Email</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="password" required>
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="submit-btn">
+                            <input type="submit" class="submit" />
+                        </div>
+                    </form>
+
+                </div>
+
+            </section>
 
         </div>
+        <section class="section-two">
+            <div class="card-container">
+                <div class="image-container">
+                    <img src="./sanju.png" alt="">
+                </div>
+                <h1>SANJU SAMSON</h1>
+            </div>
+            <div class="card-container">
+                <div class="image-container">
+                    <img src="./kohil.png" alt="">
+                </div>
+                <h1>VIRAT KOHLI</h1>
+            </div>
+            <div class="card-container">
+                <div class="image-container">
+                    <img src="./dhoni.png" alt="">
+                </div>
+                <h1>MS DHONI</h1>
+            </div>
 
-    </section>
-    <footer>
 
-    </footer>
+        </section>
+
+    </main>
+
+    
 </body>
-</html> 
+</html>
