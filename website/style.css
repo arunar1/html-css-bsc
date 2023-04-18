@@ -102,9 +102,33 @@ header .container{
     margin: 30px auto;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 .input-group label{
     color: rgb(165,165,165);
     font-size: 14px;
+    position: absolute;
+    top: 5px;
+    transition: 0.5s ease-in-out;
+   
+
+}
+.input-group input{
+    border: none;
+    padding: 7px;
+    outline: none;
+    border-bottom: 1px solid #c9c98a;
+}
+
+.input-group input:focus ~label,
+.input-group input:valid ~label{
+    color: red;
+    top: -10px;
+    font-size: 12px;
+
+}
+.input-group input:focus ,
+.input-group input:valid {
+    border-color: blue;
 
 }
