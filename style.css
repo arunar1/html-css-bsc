@@ -201,6 +201,7 @@ header .container{
     border-radius: 15;
     object-fit: cover;
     cursor: pointer;
+    transition: 0.5s ease-in-out ;
 }
 
 .image-container img:hover{
@@ -208,4 +209,14 @@ header .container{
 }
 .card-container:hover{
     transform: rotate(-2deg);
+}
+footer{
+    text-align: center;
+    background-color: gray;
+
+}
+footer span{
+    font-weight: bolder;
+    padding: 5px;
+    color: blue;
 }
