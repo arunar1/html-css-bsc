@@ -218,5 +218,6 @@ footer{
 footer span{
     font-weight: bolder;
     padding: 5px;
-    color: blue;
+    color: rgb(73, 73, 96);
+    font-style: italic;
 }
